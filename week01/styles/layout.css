@@ -1,0 +1,38 @@
+* {
+  width: 100%;
+}
+
+header {
+  background-color: #3d3c3c;
+  color: beige;
+  display: flex;
+  flex-direction: column;
+  height: 10em;
+  justify-content: space-between;
+}
+nav {
+  background-color: #050505;
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  color: beige;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 500px;
+}
+
+.main {
+  background-color: lightgray;
+  flex-grow: 4;
+}
+
+.aside {
+  background-color: whitesmoke;
+  flex-grow: 1;
+}
