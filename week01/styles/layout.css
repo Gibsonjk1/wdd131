@@ -9,6 +9,7 @@ header {
   flex-direction: column;
   height: 10em;
   justify-content: space-between;
+  padding: 10px;
 }
 nav {
   background-color: #050505;
@@ -29,10 +30,20 @@ main {
 
 .main {
   background-color: lightgray;
-  flex-grow: 4;
+  flex: 3;
+  padding: 10px;
 }
 
 .aside {
   background-color: whitesmoke;
-  flex-grow: 1;
+  flex: 1;
+  padding: 10px;
+}
+
+footer {
+  background-color: #3d3c3c;
+  height: 10em;
+  color: beige;
+  text-align: center;
+  padding: 20px;
 }
